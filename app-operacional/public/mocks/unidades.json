@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nome": "2ª Companhia Integrada",
+    "sigla": "CIA-02",
+    "tipo": "Companhia",
+    "unidade_superior": "BPM Central",
+    "uf": "PE",
+    "municipio": "Orionópolis",
+    "bairro": "Centro Expandido",
+    "latitude": "-8.061020",
+    "longitude": "-34.888440",
+    "responsavel": "Maj. Lucas Andrade",
+    "status": "Ativa"
+  },
+  {
+    "id": 2,
+    "nome": "3ª Companhia Integrada",
+    "sigla": "CIA-03",
+    "tipo": "Companhia",
+    "unidade_superior": "BPM Central",
+    "uf": "PE",
+    "municipio": "Vale Seguro",
+    "bairro": "Zona Leste",
+    "latitude": "-8.084660",
+    "longitude": "-34.901120",
+    "responsavel": "Cap. Renata Sá",
+    "status": "Ativa"
+  },
+  {
+    "id": 3,
+    "nome": "Pelotão Ambiental",
+    "sigla": "PATRES",
+    "tipo": "Pelotão",
+    "unidade_superior": "2ª Companhia Integrada",
+    "uf": "PE",
+    "municipio": "Orionópolis",
+    "bairro": "Área rural",
+    "latitude": "-8.101300",
+    "longitude": "-34.954201",
+    "responsavel": "Ten. Ícaro Lemos",
+    "status": "Escala especial"
+  }
+]

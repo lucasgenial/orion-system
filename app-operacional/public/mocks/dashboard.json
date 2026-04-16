@@ -1,0 +1,29 @@
+{
+  "total_ocorrencias_hoje": 38,
+  "total_cvli_mes": 4,
+  "total_roubos_mes": 32,
+  "total_furtos_mes": 48,
+  "total_armas_apreendidas": 14,
+  "total_prisoes": 19,
+  "total_veiculos_recuperados": 9,
+  "ocorrencias_recentes": [
+    "OR-2026-00481 - Roubo a transeunte",
+    "OR-2026-00479 - Violência doméstica",
+    "OR-2026-00474 - Apreensão de arma"
+  ],
+  "produtividade_resumida": [
+    "Conduções: 18",
+    "Mandados: 7",
+    "TCO: 5"
+  ],
+  "ranking_unidades": [
+    "2ª Companhia Integrada",
+    "ROCAM",
+    "3ª Companhia Integrada"
+  ],
+  "alertas_operacionais": [
+    "6 registros aguardando validação",
+    "2 ocorrências de alta prioridade ainda abertas",
+    "1 unidade em ajuste de escala"
+  ]
+}

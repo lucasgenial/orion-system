@@ -1,0 +1,26 @@
+[
+  {
+    "quando": "2026-04-16 18:26",
+    "usuario": "Helena Duarte",
+    "modulo": "Ocorrências",
+    "entidade": "OR-2026-00481",
+    "acao": "Alteração",
+    "resumo": "Classificação secundária atualizada para Com ameaça"
+  },
+  {
+    "quando": "2026-04-16 18:10",
+    "usuario": "Joana Farias",
+    "modulo": "Ocorrências",
+    "entidade": "OR-2026-00492",
+    "acao": "Inclusão",
+    "resumo": "Registro inicial com 4 envolvidos e 2 bens subtraídos"
+  },
+  {
+    "quando": "2026-04-16 17:59",
+    "usuario": "Sistema",
+    "modulo": "Segurança",
+    "entidade": "USR-0021",
+    "acao": "Bloqueio",
+    "resumo": "Perfil externo controlado bloqueado após 5 tentativas"
+  }
+]

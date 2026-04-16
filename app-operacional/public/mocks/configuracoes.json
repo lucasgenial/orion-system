@@ -1,0 +1,33 @@
+{
+  "nome_sistema": "ORION",
+  "sigla": "Operações, Registro e Inteligência Operacional em Rede",
+  "tema": "Claro institucional",
+  "companhia_padrao": "2ª Companhia Integrada",
+  "status_ocorrencia": [
+    "Em atendimento",
+    "Em análise",
+    "Concluída",
+    "Validada"
+  ],
+  "tipificacoes_disponiveis": [
+    "Roubo a transeunte",
+    "Furto de veículo",
+    "Violência doméstica",
+    "Apreensão de arma",
+    "Mandado judicial",
+    "Apoio operacional"
+  ],
+  "perfis_acesso": [
+    "Administrador",
+    "Gestor Operacional",
+    "Supervisor",
+    "Digitador",
+    "Visualizador"
+  ],
+  "tipos_acesso": [
+    "Web interno",
+    "Web externo controlado",
+    "API integração",
+    "Acesso temporário"
+  ]
+}

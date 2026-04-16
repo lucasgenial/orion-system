@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "data": "2026-04-16",
+    "unidade": "2ª Companhia Integrada",
+    "municipio": "Orionópolis",
+    "armas_apreendidas": 3,
+    "drogas_apreendidas": "4.8 kg",
+    "veiculos_recuperados": 2,
+    "conducoes": 4,
+    "tco": 2,
+    "mandados": 2,
+    "prisoes_flagrante": 1,
+    "menores_apreendidos": 1,
+    "observacoes": "Reforço de patrulhamento em área comercial e cumprimento de mandados com apoio setorial."
+  },
+  {
+    "id": 2,
+    "data": "2026-04-15",
+    "unidade": "ROCAM",
+    "municipio": "Orionópolis",
+    "armas_apreendidas": 1,
+    "drogas_apreendidas": "1.2 kg",
+    "veiculos_recuperados": 0,
+    "conducoes": 3,
+    "tco": 0,
+    "mandados": 0,
+    "prisoes_flagrante": 1,
+    "menores_apreendidos": 0,
+    "observacoes": "Ação de saturação em corredores de fluxo intenso no turno noturno."
+  },
+  {
+    "id": 3,
+    "data": "2026-04-15",
+    "unidade": "3ª Companhia Integrada",
+    "municipio": "Vale Seguro",
+    "armas_apreendidas": 0,
+    "drogas_apreendidas": "0.4 kg",
+    "veiculos_recuperados": 2,
+    "conducoes": 2,
+    "tco": 1,
+    "mandados": 1,
+    "prisoes_flagrante": 0,
+    "menores_apreendidos": 1,
+    "observacoes": "Patrulhamento orientado por indicadores com foco em áreas residenciais."
+  }
+]

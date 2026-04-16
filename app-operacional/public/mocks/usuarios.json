@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "nome": "Helena Duarte",
+    "email": "helena.duarte@orion.gov",
+    "perfil": "Gestor Operacional",
+    "tipo_acesso": "Web interno",
+    "escopo": "Unidade e descendentes",
+    "unidade": "2ª Companhia Integrada",
+    "status": "Ativo",
+    "ultimo_acesso": "2026-04-16 18:12"
+  },
+  {
+    "id": 2,
+    "nome": "Marcelo Teles",
+    "email": "marcelo.teles@orion.gov",
+    "perfil": "Supervisor",
+    "tipo_acesso": "Web interno",
+    "escopo": "Unidade própria",
+    "unidade": "3ª Companhia Integrada",
+    "status": "Ativo",
+    "ultimo_acesso": "2026-04-16 17:47"
+  },
+  {
+    "id": 3,
+    "nome": "Joana Farias",
+    "email": "joana.farias@orion.gov",
+    "perfil": "Digitador",
+    "tipo_acesso": "Web interno",
+    "escopo": "Registros próprios da unidade",
+    "unidade": "2ª Companhia Integrada",
+    "status": "Em ajuste",
+    "ultimo_acesso": "2026-04-15 22:05"
+  }
+]

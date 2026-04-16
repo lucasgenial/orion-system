@@ -1,0 +1,97 @@
+[
+  {
+    "id": 481,
+    "protocolo": "OR-2026-00481",
+    "tipificacao": "Roubo a transeunte",
+    "classificacao_primaria": "Patrimônio",
+    "classificacao_secundaria": "Com ameaça",
+    "data": "2026-04-16",
+    "hora": "17:41",
+    "uf": "PE",
+    "municipio": "Orionópolis",
+    "bairro": "Centro",
+    "logradouro": "Rua 7 de Setembro",
+    "numero": "180",
+    "local_referencia": "Rodoviária central",
+    "envolvidos": 4,
+    "itens_subtraidos": 2,
+    "itens_apreendidos": 0,
+    "guarnicao": "Alfa 02",
+    "unidade": "2ª Companhia Integrada",
+    "status": "Em atendimento",
+    "prioridade": "Alta",
+    "descricao": "Vítima relatou subtração de celular e documentos mediante ameaça verbal. Equipe em diligência na área central.",
+    "providencias": "Rondas no perímetro, coleta de imagens, emissão de alerta setorial e contato com videomonitoramento.",
+    "anexos": [
+      "imagem-camera-rodoviaria.jpg",
+      "declaracao-vitima.pdf"
+    ],
+    "historico": [
+      "Registro aberto às 17:41",
+      "Guarnição deslocada às 17:44",
+      "Monitoramento acionado às 18:03"
+    ]
+  },
+  {
+    "id": 479,
+    "protocolo": "OR-2026-00479",
+    "tipificacao": "Violência doméstica",
+    "classificacao_primaria": "Pessoa",
+    "classificacao_secundaria": "Medida protetiva",
+    "data": "2026-04-16",
+    "hora": "16:58",
+    "uf": "PE",
+    "municipio": "Orionópolis",
+    "bairro": "Nova Esperança",
+    "logradouro": "Travessa 12",
+    "numero": "45",
+    "local_referencia": "Residência térrea",
+    "envolvidos": 3,
+    "itens_subtraidos": 0,
+    "itens_apreendidos": 0,
+    "guarnicao": "Maria da Penha 01",
+    "unidade": "2ª Companhia Integrada",
+    "status": "Em análise",
+    "prioridade": "Média",
+    "descricao": "Equipe acionada para contenção de agressor e encaminhamento da vítima à rede de proteção.",
+    "providencias": "Isolamento do local, condução do autor e comunicação aos órgãos de apoio.",
+    "anexos": [
+      "relato-inicial.pdf"
+    ],
+    "historico": [
+      "Atendimento iniciado às 16:58",
+      "Condução realizada às 17:22"
+    ]
+  },
+  {
+    "id": 474,
+    "protocolo": "OR-2026-00474",
+    "tipificacao": "Apreensão de arma",
+    "classificacao_primaria": "Preventiva",
+    "classificacao_secundaria": "Arma de fogo",
+    "data": "2026-04-16",
+    "hora": "15:49",
+    "uf": "PE",
+    "municipio": "Orionópolis",
+    "bairro": "Setor Norte",
+    "logradouro": "BR de acesso",
+    "numero": "km 11",
+    "local_referencia": "Setor industrial",
+    "envolvidos": 2,
+    "itens_subtraidos": 0,
+    "itens_apreendidos": 1,
+    "guarnicao": "ROCAM Setorial",
+    "unidade": "ROCAM",
+    "status": "Concluída",
+    "prioridade": "Alta",
+    "descricao": "Durante patrulhamento orientado por análise, equipe abordou suspeito em atitude incompatível e apreendeu arma de fogo.",
+    "providencias": "Condução, apreensão do material e formalização da ocorrência.",
+    "anexos": [
+      "foto-material.jpg"
+    ],
+    "historico": [
+      "Abordagem às 15:49",
+      "Condução encerrada às 16:35"
+    ]
+  }
+]

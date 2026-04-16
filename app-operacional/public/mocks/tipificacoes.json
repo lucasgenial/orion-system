@@ -1,0 +1,29 @@
+[
+  {
+    "codigo": "TIP-001",
+    "nome": "Roubo a transeunte",
+    "classificacao_primaria": "Patrimônio",
+    "envolvidos_obrigatorios": true,
+    "itens_subtraidos": true,
+    "itens_apreendidos": false,
+    "auditoria_reforcada": true
+  },
+  {
+    "codigo": "TIP-002",
+    "nome": "Violência doméstica",
+    "classificacao_primaria": "Pessoa",
+    "envolvidos_obrigatorios": true,
+    "itens_subtraidos": false,
+    "itens_apreendidos": true,
+    "auditoria_reforcada": true
+  },
+  {
+    "codigo": "TIP-003",
+    "nome": "Apreensão de arma",
+    "classificacao_primaria": "Preventiva",
+    "envolvidos_obrigatorios": true,
+    "itens_subtraidos": false,
+    "itens_apreendidos": true,
+    "auditoria_reforcada": true
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "tipo": "Validação",
+    "origem": "Ocorrências",
+    "mensagem": "OR-2026-00492 aguarda sua conferência final.",
+    "status": "Não lida"
+  },
+  {
+    "tipo": "Segurança",
+    "origem": "Conta",
+    "mensagem": "Sua senha expira em 14 dias.",
+    "status": "Pendente"
+  },
+  {
+    "tipo": "Escopo",
+    "origem": "Usuários",
+    "mensagem": "Seu escopo foi atualizado para unidade e descendentes.",
+    "status": "Lida"
+  }
+]

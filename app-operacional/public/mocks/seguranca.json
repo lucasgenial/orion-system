@@ -1,0 +1,6 @@
+{
+  "perfis": ["Administrador", "Gestor Operacional", "Supervisor", "Digitador", "Visualizador"],
+  "tipos_acesso": ["Web interno", "Web externo controlado", "API integração", "Acesso temporário"],
+  "escopos": ["Global", "Unidade própria", "Unidade e descendentes", "Município"],
+  "regra_geral": "Perfil funcional define o que pode fazer; tipo de acesso restringe como entra; escopo define o que pode ver."
+}
