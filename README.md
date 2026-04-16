@@ -11,7 +11,21 @@ Mais do que um painel administrativo, o ORION esta sendo desenhado como uma base
 O repositorio concentra dois produtos complementares:
 
 - app-operacional: aplicacao Laravel principal, responsavel pela camada transacional, cadastros, fluxos operacionais, seguranca, auditoria e registro estruturado.
-- app-painel: espaco reservado para o futuro painel analitico do ecossistema ORION, com proposta visual inspirada em experiencias de BI e leitura executiva de indicadores.
+- app-painel: prototipo inicial da frente analitica do ecossistema ORION, com linguagem visual inspirada em experiencias de BI e leitura executiva de indicadores.
+
+## Galeria visual
+
+### App Operacional
+
+![Preview do app operacional](docs/media/orion-operacional-preview.svg)
+
+Camada transacional do ecossistema, pensada para registro operacional, controle administrativo, trilha de auditoria e governanca de dados.
+
+### App Painel
+
+![Preview do app painel](docs/media/orion-painel-preview.svg)
+
+Visao futura do modulo analitico, com leitura executiva de tendencia, desempenho, risco, produtividade e consolidacao territorial.
 
 ## O que o ORION entrega nesta fase
 
@@ -27,6 +41,16 @@ O estado atual do projeto ja cobre a base visual, navegacional e conceitual do s
 - area de configuracoes e autoatendimento da conta do usuario;
 - tabelas padronizadas com DataTables, busca, paginacao e acoes por linha;
 - identidade visual propria, layout fixo, navegacao administrativa consistente e base frontend em TypeScript.
+
+## O que ja existe no app-painel
+
+Mesmo antes da integracao com dados reais, o repositorio agora ja possui uma base inicial para o painel analitico:
+
+- landing estatica com direcao visual de centro de comando;
+- cards de KPI para leitura executiva imediata;
+- blocos para tendencia, radar de atencao, mapa sintetico e fila executiva;
+- interacoes basicas de filtro e troca de contexto;
+- estrutura pronta para evoluir para stack frontend definitiva.
 
 ## Diretrizes de negocio ja incorporadas
 
@@ -54,6 +78,7 @@ O ORION ja foi modelado com algumas decisoes estruturais importantes:
 app-orion/
 |-- app-operacional/
 |-- app-painel/
+|-- docs/
 |-- README.md
 ```
 
@@ -83,6 +108,10 @@ composer run setup
 ```
 
 O setup atual cria a base Laravel, gera a chave da aplicacao, executa migracoes e prepara o frontend.
+
+## Como visualizar o app-painel
+
+O app-painel ainda esta em fase de prototipo. Para visualizar a base atual, abra [app-painel/index.html](app-painel/index.html) em um navegador ou sirva a pasta com qualquer servidor estatico simples.
 
 ## Comandos uteis
 

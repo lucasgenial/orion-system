@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORION Painel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="painel-shell">
+        <header class="hero">
+            <div>
+                <p class="eyebrow">ORION Painel</p>
+                <h1>Leitura executiva para operacao, territorio, risco e desempenho.</h1>
+                <p class="hero-copy">Uma frente analitica pensada para consolidar os dados do app-operacional em uma experiencia de comando com indicadores, tendencia e tomada de decisao.</p>
+            </div>
+            <div class="hero-actions">
+                <button class="pill is-active" data-filter="tempo-real">Tempo real</button>
+                <button class="pill" data-filter="24h">24 horas</button>
+                <button class="pill" data-filter="7d">7 dias</button>
+                <button class="pill" data-filter="30d">30 dias</button>
+            </div>
+        </header>
+
+        <main class="dashboard">
+            <section class="kpi-grid">
+                <article class="kpi-card kpi-card--teal">
+                    <span>Eventos monitorados</span>
+                    <strong>1.284</strong>
+                    <small>+12% em relacao ao ciclo anterior</small>
+                </article>
+                <article class="kpi-card kpi-card--blue">
+                    <span>Unidades ativas</span>
+                    <strong>37</strong>
+                    <small>94% de cobertura operacional</small>
+                </article>
+                <article class="kpi-card kpi-card--green">
+                    <span>Resposta media</span>
+                    <strong>08m42s</strong>
+                    <small>indice dentro da meta tatica</small>
+                </article>
+                <article class="kpi-card kpi-card--amber">
+                    <span>Alertas criticos</span>
+                    <strong>09</strong>
+                    <small>4 exigem escalonamento imediato</small>
+                </article>
+            </section>
+
+            <section class="layout-grid">
+                <article class="panel-card panel-card--wide">
+                    <div class="panel-head">
+                        <div>
+                            <p class="panel-kicker">Tendencia consolidada</p>
+                            <h2>Curva de ocorrencias, produtividade e risco</h2>
+                        </div>
+                        <span class="status-tag">Atualizado agora</span>
+                    </div>
+                    <div class="trend-chart">
+                        <div class="trend trend--one"></div>
+                        <div class="trend trend--two"></div>
+                        <div class="trend trend--three"></div>
+                    </div>
+                    <div class="legend-row">
+                        <span><i class="dot dot--cyan"></i> Ocorrencias</span>
+                        <span><i class="dot dot--blue"></i> Produtividade</span>
+                        <span><i class="dot dot--green"></i> Risco controlado</span>
+                    </div>
+                </article>
+
+                <article class="panel-card">
+                    <div class="panel-head">
+                        <div>
+                            <p class="panel-kicker">Radar de atencao</p>
+                            <h2>Prioridades do comando</h2>
+                        </div>
+                    </div>
+                    <ul class="alert-list">
+                        <li>
+                            <strong>Setor Norte</strong>
+                            <span>Aumento de recorrencia em crimes patrimoniais.</span>
+                        </li>
+                        <li>
+                            <strong>Corredor Central</strong>
+                            <span>Pico de demanda entre 18h e 21h nos ultimos 3 dias.</span>
+                        </li>
+                        <li>
+                            <strong>Area Leste</strong>
+                            <span>Baixa cobertura de recurso em janela critica.</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="panel-card">
+                    <div class="panel-head">
+                        <div>
+                            <p class="panel-kicker">Cobertura territorial</p>
+                            <h2>Mapa operacional sintetico</h2>
+                        </div>
+                    </div>
+                    <div class="map-grid">
+                        <span class="map-tile is-high"></span>
+                        <span class="map-tile is-high"></span>
+                        <span class="map-tile is-medium"></span>
+                        <span class="map-tile is-low"></span>
+                        <span class="map-tile is-medium"></span>
+                        <span class="map-tile is-low"></span>
+                        <span class="map-tile is-high"></span>
+                        <span class="map-tile is-medium"></span>
+                        <span class="map-tile is-low"></span>
+                    </div>
+                </article>
+
+                <article class="panel-card panel-card--wide">
+                    <div class="panel-head">
+                        <div>
+                            <p class="panel-kicker">Fila executiva</p>
+                            <h2>Eventos e decisoes em acompanhamento</h2>
+                        </div>
+                        <div class="tab-switcher">
+                            <button class="tab is-active" data-tab="eventos">Eventos</button>
+                            <button class="tab" data-tab="unidades">Unidades</button>
+                            <button class="tab" data-tab="agenda">Agenda</button>
+                        </div>
+                    </div>
+                    <div class="table-shell">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Frente</th>
+                                    <th>Cenario</th>
+                                    <th>Status</th>
+                                    <th>Responsavel</th>
+                                </tr>
+                            </thead>
+                            <tbody id="painel-tabela-corpo">
+                                <tr>
+                                    <td>Operacao Alfa</td>
+                                    <td>Monitoramento reforcado em corredor urbano</td>
+                                    <td><span class="badge badge--amber">Em atencao</span></td>
+                                    <td>Coord. Regional 02</td>
+                                </tr>
+                                <tr>
+                                    <td>Produtividade Oeste</td>
+                                    <td>Queda de 8% no fechamento do turno noturno</td>
+                                    <td><span class="badge badge--blue">Em analise</span></td>
+                                    <td>Analise Operacional</td>
+                                </tr>
+                                <tr>
+                                    <td>Unidade Delta</td>
+                                    <td>Escala reprogramada por indisponibilidade parcial</td>
+                                    <td><span class="badge badge--green">Controlado</span></td>
+                                    <td>Gestao Territorial</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
